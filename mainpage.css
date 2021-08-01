@@ -1,0 +1,56 @@
+
+.slides{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+    padding:10px;
+    width:100%;
+}
+
+.container{
+  margin-top: 45px;
+  
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+
+
+}
+.item{
+  border-radius:10px ;
+  height: 300px;
+  width:250px;
+  border:2px solid rgb(57, 214, 214);
+}
+h4{
+  
+ padding:20px;
+}
+div.links{
+  width:200px;
+}
+.footer{
+  margin-top:50px;
+  background-color:steelblue;
+  color:white;
+  display: flex;
+  justify-content: left;
+  padding:10px;
+  
+}
+
+
+
+
+
+.closebtn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.closebtn:hover {
+  color: lightgrey;
+}

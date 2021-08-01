@@ -1,0 +1,42 @@
+body{
+    background-image: url('image/IMG_20201106_201539.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.maindiv{
+    margin-top: 6%;
+    width:400px;
+  height:400px;
+  background-color:rgb(255, 254, 253,0.8);
+  margin-left:35%;
+}
+
+h4{
+   padding: 5%;
+   margin-left: 17%;
+}
+
+.divtag{
+    margin-top: 3%;
+    width:75%;
+    height:250px;
+    margin-left: 9%;
+}
+
+.next{
+    background-color: green;
+    border-color: green;
+    width: 89px;
+    height: 40px;
+    margin-top: 17%;
+    margin-left: 35%;
+    color: white
+}
+
+.user{
+    width: 62px;
+    margin-left: 38%;
+    border-radius: 50%;
+    margin-top: -10%;
+  }

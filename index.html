@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice</title>
+    <link rel="icon" href="images\cadecus2.png" >
+    <style>
+        body{
+            background-image: url("image/landingBackground.jpg"); 
+            background-color: #cccccc; 
+            height: 500px; 
+            background-position: center; 
+            background-repeat: no-repeat; 
+            background-size: cover;
+            font-family: sans-serif;
+            background-blend-mode:hard-light;
+            
+        }
+        div.container{
+            margin-left: 250px;
+            margin-top: 180px;
+            display: grid;
+            grid-template-columns: 400px 400px;
+            grid-column-gap: 10px;
+        }
+        div.item{
+            height:300px;
+            width:300px;
+            border:2px solid turquoise;
+            border-radius:10px;
+            background-color:aliceblue;
+            box-shadow: 0px 8px 15px rgba(130, 170, 170, 1);
+        }
+        img{
+            height:200px;
+            width:300px;
+            border-radius:10px;
+        }
+        h3{
+            margin-left: 100px;
+        }
+        button{
+            margin-left: 90px;
+            background-image: linear-gradient(to right, turquoise , aqua);
+            width: 100px;
+            height:30px;
+            border-radius: 20px;
+            border:1px solid aquamarine;
+            font-weight: bolder;
+            color:grey;
+        }
+        
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <img src="images/happy-young-family-with-baby-pediatrician-doctor_74855-7536.jpg" alt="patient">
+            <h3>Patient.</h3>
+            <button onclick="patient()">Click here</button>
+        </div>
+        <div class="item">
+            <img src="images/online-doctor-consultation-illustration_88138-414.jpg" alt="patient">
+            <h3>Doctor.</h3>
+            <button  onclick="doctor()">Click here</button>
+        </div>
+
+    </div>
+    <script>
+        function patient(){
+            location.href="patientmainpage.html";
+            
+        }
+        function doctor(){
+            location.href="doctorHomepage.html";
+        }
+    </script>
+
+    
+</body>
+</html>

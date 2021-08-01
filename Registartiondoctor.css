@@ -1,0 +1,58 @@
+body{
+    background-image: url('image/IMG_20201106_201555.JPG');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainhead{
+    margin-left: 55%;
+    margin-top: 3%;
+    font-size: 31px;
+    color: darkslateblue;
+}
+table{
+    border-spacing: 0 20px;
+    border-collapse: separate;
+    margin-left: 30%;
+    /* margin-right: 4%; */
+    margin-top: 2%;
+    font-weight: 600;
+    width: 64%;
+}
+.textleft{
+    margin-left:12%;
+}
+.cancel{
+    margin-left:50%;
+    width:105px;
+    height:45px;
+    border:none;
+    border-radius:15px;
+    border:2px solid blue;
+    background-color:blue;
+    margin-bottom:5%;
+    margin-top:3%;
+    color:white;
+}
+/* .cancel:hover{
+    background-color:blue;
+    border:2px solid blue;
+    color:white;
+} */
+.register{
+    margin-left:10%;
+    width:105px;
+    height:45px;
+    border:none;
+    border-radius:15px;
+    border:2px solid green;
+    background-color:green;
+    color:white;
+    margin-bottom:5%;
+    margin-top:3%;
+}
+/* .register:hover{
+    background-color:rgb(9, 126, 9);
+    border:2px solid rgb(9, 126, 9);
+    color:white;
+} */
